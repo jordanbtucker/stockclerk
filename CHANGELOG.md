@@ -10,6 +10,7 @@ and this project adheres to
 
 ### Fixed
 
+- A bug that prevented the CLI from working correctly.
 - A dev bug that prevented eslint-plugin-node from handling TypeScript files
   correctly.
 

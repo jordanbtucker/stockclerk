@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Pluggable stock checker for online stores",
   "main": "lib",
-  "bin": "lib/cli",
+  "bin": "lib/cli.js",
   "types": "lib/index.d.ts",
   "files": [
     "lib",

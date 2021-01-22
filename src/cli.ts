@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import {StockClerkFactory} from '.'
 
 async function main() {
