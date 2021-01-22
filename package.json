@@ -2,7 +2,6 @@
   "name": "stockclerk",
   "version": "0.0.0",
   "description": "Pluggable stock checker for online stores",
-  "private": true,
   "main": "lib",
   "bin": "lib/cli",
   "types": "lib/index.d.ts",
@@ -13,6 +12,11 @@
   "engines": {
     "node": "^10.17 || ^12 || >=14"
   },
+  "homepage": "https://github.com/jordanbtucker/stockclerk#stockclerk",
+  "bugs": "https://github.com/jordanbtucker/stockclerk/issues",
+  "license": "MIT",
+  "author": "Jordan Tucker <jordanbtucker@gmail.com> (https://github.com/jordanbtucker)",
+  "repository": "jordanbtucker/stockclerk",
   "scripts": {
     "ava": "ava test/*",
     "build": "run-s clean compile",
