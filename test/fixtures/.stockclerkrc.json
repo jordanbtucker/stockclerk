@@ -1,0 +1,6 @@
+{
+  "options": {
+    "a": 1
+  },
+  "plugins": ["./test/fixtures/test-plugin"]
+}
