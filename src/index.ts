@@ -1,7 +1,7 @@
 import {EventEmitter} from 'events'
-import {existsSync} from 'fs'
-import {readFile} from 'fs/promises'
+import {existsSync, promises as fsPromises} from 'fs'
 import {extname, resolve} from 'path'
+const {readFile} = fsPromises
 
 /** The status of a product in an online store. */
 export type ProductStatus<T = Record<string, unknown>> = {
