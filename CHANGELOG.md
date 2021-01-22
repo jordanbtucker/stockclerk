@@ -8,6 +8,11 @@ and this project adheres to
 
 ## [Unreleased]
 
+### Fixed
+
+- A dev bug that prevented eslint-plugin-node from handling TypeScript files
+  correctly.
+
 ## [0.1.0] - 2021-01-22
 
 ### Added

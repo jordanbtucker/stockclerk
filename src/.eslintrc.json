@@ -9,12 +9,15 @@
   "parserOptions": {
     "project": "tsconfig.json"
   },
-  "rules": {
-    "node/no-missing-import": [
-      "error",
-      {
-        "tryExtensions": [".ts", ".tsx", ".js", ".json", ".node"]
-      }
-    ]
+  "settings": {
+    "node": {
+      "convertPath": [
+        {
+          "include": ["src/**/*.ts", "src/**/*.tsx"],
+          "replace": ["^src/(.+)\\.tsx?$", "lib/$1.js"]
+        }
+      ],
+      "tryExtensions": [".ts", ".tsx", ".js", ".json", ".node"]
+    }
   }
 }
